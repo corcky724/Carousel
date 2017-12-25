@@ -60,7 +60,7 @@ Gulp.task('copyVideo', function () {
 });
 
 Gulp.task('copyLibs', function () {
-	// 獲取所有影片。
+	// 獲取所有差件。
 	Gulp.src('./src/libs/**/*')
 	
 	// 放到目標目錄。
