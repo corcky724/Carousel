@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Carousel</title>
+	
+	<!-- build:css ./css/main.css -->
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/carousel.css">
+	<link rel="stylesheet" href="./css/modules.css">
+	<!-- endbuild -->
+</head>
+<body>
+	<div id="container">
+		<div id="main">
+			<div id="module-navigator">
+				<div id="handler">
+					<div id="loader">
+						<div class="main-loader-ellipse"></div>
+						<div class="main-loader-item">
+							<div class="main-loader-background"></div>
+							<img src="./images/00loader/loader.png">
+						</div>
+						<div class="tutorial"></div>
+						<div class="txt-drag"></div>
+					</div>
+					<div id="whoweare">
+						<div id="whoweare-loop-video">
+							<!-- 背景影片 -->
+							<video src="./videos/01whoweare/loop.mp4" class="back-video" loop></video>
+						</div>
+						<div id="whoweare-section-container">
+							<div id="telling" class="whoweare-section hover">
+								<div class="whoweare-title">
+									<span>Telling</span>
+									<div class="section-hover"></div>
+									<div id="whoweare-popup1" class="whoweare-popup">
+										<div class="whoweare-description">We seek nothing less than to be a source of inspiration, revealing your true ambitions.</div>
+									</div>
+								</div>
+							</div>
+							<div class="whoweare-section-separation"></div>
+							<div id="fascinating" class="whoweare-section hover">
+								<div class="whoweare-title">
+									<span>Fascinating</span>
+									<div class="section-hover"></div>
+									<div id="whoweare-popup2" class="whoweare-popup">
+										<div class="whoweare-description">We deliver nothing less than incredible individuals, with the distinctive ability to imagine, create and innovate.</div>
+									</div>
+								</div>
+							</div>
+							<div class="whoweare-section-separation"></div>
+							<div id="story" class="whoweare-section hover">
+								<div class="whoweare-title">
+									<span>Stories</span>
+									<div class="section-hover"></div>
+									<div id="whoweare-popup3" class="whoweare-popup">
+										<div class="whoweare-description">We are directors, motion designers, photographers, web designers, developers, sound designers and we give you nothing less than the most beautiful ways to tell your story.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="whoweare-caption"></div>
+					</div>
+					<div id="ralphlauren">
+						<div id="main-ralphlauren">
+							<!-- ralphlauren 模塊有上下兩部分 -->
+							<div id="ralph-container">
+								<!-- 上部分用於設置 onclick 返回下部分 -->
+								<div id="ralph-back"></div>
+								<!-- 上部分影片 -->
+								<div id="ralph-placeholder">
+									<div id="ralph-video">
+										<video src="./videos/02ralphlauren/video.mp4" loop></video>
+									</div>
+								</div>
+								<!-- 下部分內容 -->
+								<div id="ralph-intro">
+									<div id="photo-one" class="ralph-sub"></div>
+									<div id="video-one" class="ralph-sub">
+										<video class="back-video" src="./videos/02ralphlauren/loop.mp4" loop></video>
+									</div>
+									<div id="video-two" class="ralph-sub"></div>
+									<div class="ralph-sub">
+										<div id="ralph-launch">
+											<div class="ralph-launch-normal"></div>
+											<div class="ralph-launch-over"></div>
+										</div>
+										<div id="ralph-photo2"></div>
+										<div id="ralph-photo3"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="bose">
+						<div id="main-bose">
+							<!-- bose 模塊有上下兩部分 -->
+							<div id="bose-container">
+								<!-- 上部分用於設置 onclick 返回下部分 -->
+								<div id="bose-back"></div>
+								<!-- 上部分影片 -->
+								<div id="bose-placeholder">
+									<div id="bose-video">
+										<video src="./videos/03bose/video.mp4" loop></video>
+									</div>
+								</div>
+								<!-- 下部分內容 -->
+								<div id="bose-intro">
+									<div id="bose-loop">
+										<video class="back-video" src="./videos/03bose/loop.mp4" loop></video>
+									</div>
+									<div id="bose-evolve"></div>
+									<div id="bose-making"></div>
+									<div id="bose-line"></div>
+									<div id="bose-ready"></div>
+									<div id="bose-over"></div>
+									<div id="bose-sounddesign"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="bullittagency">
+						<div id="bullitt-bg"></div>
+						<div id="bullitt-loop">
+							<video class="back-video" src="./videos/04bullittagency/loop.mp4" loop></video>
+						</div>
+						<div id="bullitt-text"></div>
+						<div id="bullitt-launch"></div>
+						<div id="bullitt-intro"></div>
+					</div>
+					<div id="adisseo">
+						<div id="main-adisseo">
+							<div id="adisseo-container">
+								<div id="adisseo-back"></div>
+								<div id="adisseo-placeholder">
+									<video src="./videos/05adisseo/video.mp4" loop></video>
+								</div>
+								<div id="adisseo-intro">
+									<div id="adisseo-bg"></div>
+									<div id="adisseo-content">
+										<div id="adisseo-hover">
+											<div class="adisseo-hover-content">
+												<div class="adisseo-elipse"></div>
+												<div class="adisseo-sprite"></div>
+											</div>
+										</div>
+										<div id="adisseo-casestudy"></div>
+										<div id="adisseo-separation"></div>
+										<div id="adisseo-launch">
+											<div id="adisseo-launch-img"></div>
+											<div id="adisseo-separation2"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="kindy">
+						<div id="main-kindy">
+							<div id="kindy-container">
+								<div id="kindy-back"></div>
+								<div id="kindy-placeholder-video">
+									<video src="./videos/06kindy/video1.mp4" loop style="display: block;"></video>
+									<video src="./videos/06kindy/video2.mp4" loop></video>
+									<video src="./videos/06kindy/video3.mp4" loop></video>
+								</div>
+								<div id="kindy-intro">
+									<div id="kindy-background">
+										<video class="back-video" src="./videos/06kindy/loop.mp4" loop></video>
+									</div>
+									<div id="kindy-circle"></div>
+									<div id="spriteCircle"></div>
+									<div id="kindy-find"></div>
+									<div id="kindy-adventures"></div>
+									<div id="kindy-launch"></div>
+									<div id="kindy-section">
+										<ul>
+											<li class="current">Blockbuster</li>
+											<li>Speed dating</li>
+											<li>Psycholuv' Story</li>
+										</ul>
+									</div>
+									<div id="spriteIn"></div>
+									<div id="spriteTitle"></div>
+									<div id="kindy-section1" class="kindy-section" style="display: block;"></div>
+									<div id="kindy-section2" class="kindy-section"></div>
+									<div id="kindy-section3" class="kindy-section"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="sanofi">
+						<div id="main-sanofi">
+							<div id="sanofi-container">
+								<div id="sanofi-back"></div>
+								<div id="sanofi-placeholder">
+									<video src="./videos/07sanofi/video.mp4" loop></video>
+								</div>
+								<div id="sanofi-intro">
+									<div id="sanofi-background" data-depth="0.4"></div>
+									<div id="sanofi-flou" class="parallax-obj" data-depth="0.4"></div>
+									<div id="sanofi-find" class="parallax-obj" data-depth="0.1" data-top="-203" data-left="-407"></div>
+									<div id="sanofi-known" class="parallax-obj" data-depth="0.2" data-top="193" data-left="-136"></div>
+									<div id="sanofi-lines" class="parallax-obj" data-depth="0.2" data-top="0" data-left="-282"></div>
+									<div id="sanofi-stockholm" class="parallax-obj" data-depth="0.3" data-top="40" data-left="-382"></div>
+									<div id="sanofi-stroke" class="parallax-obj" data-depth="0.4" data-top="-109" data-left="-109"></div>
+									<div id="sanofi-stroke1" class="parallax-obj" data-depth="0.9" data-top="-171" data-left="-170"></div>
+									<div id="sanofi-stroke2" class="parallax-obj" data-depth="0.6" data-top="-148" data-left="-149"></div>
+									<div id="sanofi-launch" class="parallax-obj" data-depth="0.1" data-top="-110" data-left="-110">
+										<span>SANOFI</span>
+										<br>
+										AT EUROPEAN SOCIETY
+										<br>
+										OF CARDIOLOGY
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="news">
+						<div id="main-news">
+							<div id="news-cont">
+								<div id="news-back"></div>
+								<div id="news-placeholder-video"></div>
+								<div id="news-intro">
+									<div id="news-loop">
+										<video class="back-video" src="./videos/08news/loop.mp4" loop></video>
+									</div>
+									<div id="news-container">
+										<div class="jspContainer">
+											<div class="jspPane">
+												<div id="news-scroll-line"></div>
+												<div id="news-content-handler">
+													<div id="news-hot"></div>
+													<div id="news-lines"></div>
+													<div id="news-handler">
+														<div id="news-placeholder">
+															<div class="news-item" style="position:absolute; top:315px; z-index:300; left:0px;">
+																<div class="news-visuel">
+																	<img src="./images/08news/open-your-eyes.png">
+																	<img src="./images/08news/open-your-eyes2.png">
+																	<img src="./images/08news/open-your-eyes3.png">
+																</div>
+																<div class="news-date">Mystical</div>
+																<div class="news-title">open.your.eyes</div>
+																<div class="news-description">A gripping video to entice visitors</div>
+															</div>
+															<div></div>
+															<div></div>
+															<div class="news-item" style="position:absolute; top:464px; z-index:300; left:400px;">
+																<div class="news-visuel">
+																	<img src="./images/08news/kiss-the-blade.png">
+																	<img src="./images/08news/kiss-the-blade2.png">
+																	<img src="./images/08news/kiss-the-blade3.png">
+																</div>
+																<div class="news-date">Unexpected</div>
+																<div class="news-title">kiss.the.blade</div>
+																<div class="news-description">Fictional characters for the biggest spa in Paris</div>
+															</div>
+															<div class="news-item" style="position:absolute; top:233px; z-index:300; left:800px;">
+																<div class="news-visuel">
+																	<img src="./images/08news/pieces-of-heroes.png">
+																	<img src="./images/08news/pieces-of-heroes2.png">
+																	<img src="./images/08news/pieces-of-heroes3.png">
+																</div>
+																<div class="news-date">Thunderous</div>
+																<div class="news-title">pieces.of.heroes</div>
+																<div class="news-description">FX jingle designed for Adidas</div>
+															</div>
+															<div class="news-item" style="position:absolute; top:695px; z-index:300; left:0px;">
+																<div class="news-visuel">
+																	<img src="./images/08news/multaq-guidelines.png">
+																	<img src="./images/08news/multaq-guidelines2.png">
+																	<img src="./images/08news/multaq-guidelines3.png">
+																</div>
+																<div class="news-date">Focusing</div>
+																<div class="news-title">Multaq guidelines</div>
+																<div class="news-description">Customized interviews for sanofi worldwide</div>
+															</div>
+															<div class="news-item" style="position:absolute; top:844px; z-index:300; left:400px;">
+																<div class="news-visuel">
+																	<img src="./images/08news/shocking.png">
+																	<img src="./images/08news/shocking2.png">
+																	<img src="./images/08news/shocking3.png">
+																</div>
+																<div class="news-date">Vintage</div>
+																<div class="news-title">Shocking!</div>
+																<div class="news-description">Timeless scenes for a Karl Lagerfeld ad</div>
+															</div>
+															<div class="news-item" style="position:absolute; top:613px; z-index:300; left:800px;">
+																<div class="news-visuel">
+																	<img src="./images/08news/the-dancer.png">
+																	<img src="./images/08news/the-dancer2.png">
+																	<img src="./images/08news/the-dancer3.png">
+																</div>
+																<div class="news-date">Social</div>
+																<div class="news-title">The dancer</div>
+																<div class="news-description">Brand movie to gather the Reebok community</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="jspVerticalBar">
+												<div class="jspTrack">
+													<div class="jspDrag"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="twist">
+						<div id="main-twist">
+							<div id="twist-container">
+								<div id="twist-back"></div>
+								<div id="twist-placeholder">
+									<video src="./videos/09twist/video.mp4" loop></video>
+								</div>
+								<div id="twist-intro">
+									<div id="twist-ecran-box">
+										<div id="twist-ecran2">
+											<div id="twist-launch"></div>
+											<div id="twist-sprite1"></div>
+											<div id="twist-sprite2"></div>
+											<div id="twist-sprite3"></div>
+											<div id="twist-sprite4"></div>
+										</div>
+										<div id="twist-ecran1">
+											<div id="twist-launch1"></div>
+											<div id="twist-background"></div>
+											<div id="twist-action"></div>
+											<img id="twist-circle" src="./images/09twist/circle.png">
+											<img id="twist-go" src="./images/09twist/go.png">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="luminarc">
+						<div id="main-luminarc">
+							<div id="luminarc-container">
+								<div id="luminarc-back"></div>
+								<div id="luminarc-placeholder">
+									<video src="./videos/10luminarc/video.mp4" loop></video>
+								</div>
+								<div id="luminarc-intro">
+									<div id="luminarc-loop">
+										<video class="back-video" src="./videos/10luminarc/loop.mp4" loop></video>
+									</div>
+									<div id="luminarc-logo"></div>
+									<div id="luminarc-text"></div>
+									<div id="luminarc-launch"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="client">
+						<div id="main-client">
+							<div id="client-loop">
+								<video class="back-video" src="./videos/11client/loop.mp4" loop></video>
+							</div>
+							<div id="client-grid"></div>
+							<div id="client-work"></div>
+							<div id="client-good"></div>
+							<div id="client-launch"></div>
+							<div id="client-back"></div>
+							<div id="client1" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client2" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client3" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client4" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client5" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client6" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client7" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client8" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client9" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client10" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client11" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client12" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client13" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client14" class="item-client"><div class="item-client-logo"></div></div>
+							<div id="client15" class="item-client"><div class="item-client-logo"></div></div>
+						</div>
+					</div>
+					<div id="ownthesky">
+						<div id="ownthesky-container">
+							<div id="ownthesky-back"></div>
+							<div id="ownthesky-placeholder">
+								<video src="./videos/12ownthesky/video.mp4" loop></video>
+							</div>
+							<div id="ownthesky-intro">
+								<div id="ownthesky-loop">
+									<video class="back-video" src="./videos/12ownthesky/loop.mp4" loop></video>
+								</div>
+								<div id="ownthesky-logo"></div>
+								<div id="ownthesky-launch"></div>
+							</div>
+						</div>
+					</div>
+					<div id="citroen">
+						<div id="citroen-container">
+							<div id="citroen-back"></div>
+							<div id="citroen-placeholder">
+								<video src="./videos/13citroen/video.mp4" loop></video>
+							</div>
+							<div id="citroen-intro">
+								<div id="citroen-background" data-depth="0.03"></div>
+								<div id="citroen-link" class="citroen-obj" data-top="-60" data-left="120" data-depth="0.05">
+									<div id="citroen-imagine"></div>
+									<div id="citroen-launch"></div>
+								</div>
+								<div id="citroen-obj1" class="citroen-obj" data-top="-70" data-left="-700" data-depth="0.5"></div>
+								<div id="citroen-obj2" class="citroen-obj" data-top="30" data-left="-800" data-depth="0.09"></div>
+								<div id="citroen-obj3" class="citroen-obj" data-top="60" data-left="-700" data-depth="0.06"></div>
+								<div id="citroen-obj4" class="citroen-obj" data-top="100" data-left="450" data-depth="0.45"></div>
+								<div id="citroen-obj5" class="citroen-obj" data-top="300" data-left="120" data-depth="0.06"></div>
+								<div id="citroen-obj6" class="citroen-obj" data-top="160" data-left="200" data-depth="0.09"></div>
+								<div id="citroen-obj7" class="citroen-obj" data-top="130" data-left="-370" data-depth="0.07"></div>
+								<div id="citroen-obj8" class="citroen-obj" data-top="-70" data-left="120" data-depth="0.3"></div>
+								<div id="citroen-obj9" class="citroen-obj" data-top="-250" data-left="-110" data-depth="0.25"></div>
+								<div id="citroen-obj10" class="citroen-obj" data-top="-260" data-left="-190" data-depth="0.09"></div>
+								
+								
+							
+								<div id="citroen-drag-bg"></div>
+								<div id="citroen-logo"></div>
+								<div id="main-sequence">
+									<img src="./images/13citroen/sequence_00000.jpg">
+								</div>
+								<div id="citroen-dragbar">
+									<div id="citroen-drag-over"></div>
+									<div id="citroen-drag"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="contact">
+						<div id="contact-loop">
+							<video class="back-video" src="./videos/14contact/loop.mp4" loop></video>
+						</div>
+						<div id="contact-hello-bg"></div>
+						<a id="contact-email" href="javascript:;" data-href="mailto:hello@blacknegative.com"></a>
+						<div id="contact-text"></div>
+						<div id="see-all"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="home">
+				<div class="home-back">
+					<div class="home-back-container">
+						<div class="home-back-item selected">
+							<div>
+								<div class="home-back-item-nb">01</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">02</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">03</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">04</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">05</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">06</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">07</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">08</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">09</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">10</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">11</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">12</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">13</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+						<div class="home-back-item">
+							<div>
+								<div class="home-back-item-nb">14</div>
+								<div class="home-back-item-bg">
+									<div class="home-back-item-background"></div>
+									<div class="home-back-item-transition"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="home-front">
+					<div class="home-front-container">
+						<div class="home-front-item selected">
+							<div class="title">
+								<a href="javascript:;">WHO WE ARE</a>
+							</div>
+							<div class="description">Telling fascinating stories</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">RALPH LAUREN</a>
+							</div>
+							<div class="description">Forget me not</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">BOSE</a>
+							</div>
+							<div class="description">Treating the sound as a part of the picture</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">INTERACTIVE DESIGNS</a>
+							</div>
+							<div class="description">We try to make the web a better world</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">ADISSEO</a>
+							</div>
+							<div class="description">Attracting investors for a leading animal nutrition firm</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">KINDY</a>
+							</div>
+							<div class="description">The fantastic adventures george the Sock</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">SANOFI</a>
+							</div>
+							<div class="description">Capturing the richness of a major event</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">WHAT'S HOT</a>
+							</div>
+							<div class="description">Our latest news</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">TWIST</a>
+							</div>
+							<div class="description">The smallest glucose device</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">CRISTAL D'ARQUES</a>
+							</div>
+							<div class="description">City of Light</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">OUR CLIENTS</a>
+							</div>
+							<div class="description">It's about making a lasting impression.</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">WE OWN THE SKY</a>
+							</div>
+							<div class="description">Shape the mystery and romance of a brand</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">CITROEN</a>
+							</div>
+							<div class="description">If you can imagine it you can build it</div>
+						</div>
+						<div class="home-front-item">
+							<div class="title">
+								<a href="javascript:;">CONTACT</a>
+							</div>
+							<div class="description">Say hello to Blacknegative!</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="nav">
+			<img class="logo" src="./images/nav/logo.png">
+			<div class="nav-container">
+				<div class="navigator-container">
+					<div class="navigator">
+						<div class="first-navigator-item"></div>
+						<div class="navigator-item selected"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-item"></div>
+						<div class="navigator-drag"></div>
+					</div>
+				</div>
+				<div class="mask-nav"></div>
+				<div class="mask-hover"></div>
+				<div class="mask-menu"></div>
+			</div>
+			<div class="social">
+				<ul>
+					<li class="social-facebook">
+						<a href="javascript:;"><img src="./images/nav/facebook.png"></a>
+					</li>
+					<li class="social-twitter">
+						<a href="javascript:;"><img src="./images/nav/twitter.png"></a>
+					</li>
+					<li class="sound-control">
+						<a href="javascript:;"><img src="./images/nav/sound.png"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="credit">
+				<div class="credit-content">
+					<span>Production:</span>
+					Blacknegative
+					<br>
+					<span>Design:</span>
+					Dilshan Arukatti
+					<br>
+					<span>Development:</span>
+					<a href="http://www.sylvaintran.fr" target="_blank">Sylvain Tran</a>
+				</div>
+				<div class="credit-title">Credits</div>
+			</div>
+		</div>
+	</div>
+	<script src="./libs/jquery/dist/jquery.js"></script>
+	<script src="./libs/EKTweener/dist/EKTweener.all.js"></script>
+	
+	<!-- build:js ./script/main.js -->
+	<script src="./script/carousel.js"></script>
+	<script src="./script/modules.js"></script>
+	<script src="./script/index.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
